@@ -6,7 +6,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Password Generator by Huzaifa</title>
-    <link rel="stylesheet" href="style.css" />
+    <style>.inputBox {
+  position: relative;
+}
+
+.inputBox i {
+  position: absolute;
+  top: 16px;
+  right: 6px;
+  color: #000;
+  font-size: 28px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.passBox {
+  background: #fff;
+  border: none;
+  padding: 10px;
+  width: 300px;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-block: 8px;
+  text-overflow: ellipsis;
+  font-weight: 400;
+}
+
+.row {
+  margin-block: 8px;
+  display: flex;
+}
+
+.row p,
+.row label {
+  flex-basis: 100%;
+  font-size: 18px;
+}
+
+.row input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}
+
+.genBtn {
+  border: none;
+  background-color: #000;
+  padding: 12px 24px;
+  color: #fff;
+  font-size: 18px;
+  margin-block: 8px;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all ease 500ms;
+}
+
+.genBtn:hover {
+  background-color: #5b1010;
+  color: #000;
+}
+</style>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
